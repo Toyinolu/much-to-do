@@ -1,0 +1,36 @@
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Kubernetes & scripts
+kubernetes/
+scripts/
+
+# Docs & evidence
+README.md
+evidence/
+
+# Go test & cache
+**/*_test.go
+**/*.test
+**/testdata/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
